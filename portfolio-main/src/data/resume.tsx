@@ -10,7 +10,7 @@ export const DATA = {
   description:
     "Front-end developer turned Full-Stack. I love building meaningful things and helping visionaries. Not a lot of personality, but working on it. ",
   summary:
-    "At the beginning of 2020, I graduated from CTU Training Solutions Pretoria and went fulltime into becoming a web developer. Over the years, I've had the privilege of working with agencies, startups, and businesses to build professional websites, improve performance, and manage secure hosting environments. My work ranges from UX-focused designs to custom-built themes and full-stack applications.",
+    "At the beginning of 2020, I graduated from CTU Training Solutions Pretoria and went fulltime into becoming a web developer. In the past, [I pursued a qualification as a systems developer](/#education), [interned at promient tech company](https://www.youtube.com/watch?v=d-LJ2e5qKdE), and [built over 30 websites up to date](/#devlife). I also had the pleasure of being a part of the first ever in-person cohort of buildspace called [buildspace sf1](https://buildspace.so/sf1).",
   avatarUrl: "/me.png",
   skills: [
     "React",
@@ -26,12 +26,12 @@ export const DATA = {
     { href: "/blog", icon: NotebookIcon, label: "Blog" },
   ],
   contact: {
-    email: "milanom215@gmail.com",
-    tel: "+27627970495",
+    email: "hello@example.com",
+    tel: "+123456789",
     social: {
       GitHub: {
         name: "GitHub",
-        url: "https://github.com/MilanoM27",
+        url: "https://dub.sh/dillion-github",
         icon: Icons.github,
 
         navbar: true,
@@ -58,7 +58,7 @@ export const DATA = {
       },
       email: {
         name: "Send Email",
-        url: "#mailto:milanom215@gmail.com",
+        url: "#",
         icon: Icons.email,
 
         navbar: false,
@@ -68,61 +68,111 @@ export const DATA = {
 
   work: [
     {
-      company: "FrenchSide",
-      href: "https://frenchside.co.za/",
+      company: "Atomic Finance",
+      href: "https://atomic.finance",
       badges: [],
-      location: "Pretoria",
-      title: "Web Developer",
-      logoUrl: "/Fr.png",
-      start: "July 2021",
-      end: "Current",
-      description:
-        " Increased speed of UI development and click-through rate by 10% through modern front-end architecture. Redesigned websites from UX mockups into pixel-perfect, responsive websites. Developed and maintained custom WordPress themes and plugins for multiple client projects. Collaborated with management to design visually appealing HTML newsletters. Tracked SEO performance and implemented technical and content-based improvements. Troubleshot and resolved website issues in a timely manner. Worked across the full SDLC, handling both front-end and back-end development.",
-    },
-    {
-      company: "Chilli Media",
-      badges: [],
-      href: "https://chillimedia.co.za/",
       location: "Remote",
-      title: "Web Designer",
-      logoUrl: "/c.png",
-      start: "November 2020",
-      end: " Jul 2021",
+      title: "Bitcoin Protocol Engineer",
+      logoUrl: "/atomic.png",
+      start: "May 2021",
+      end: "Oct 2022",
       description:
-        "Translated UX designs into functional websites using HTML, CSS, JavaScript, PHP, and WordPress best practices. Built custom HTML email templates and landing pages, increasing click-through rates by over 10%. Conducted intensive cross-browser and device testing to ensure consistent user experience. Learned and applied optimization techniques including Google Page Speed Insights, caching, site speed optimization, and SEO fundamentals. Gained practical experience with FTP, SSH, cloning, migrating websites, VPS management (Plesk/cPanel), security, and backups.",
+        "Implemented the Bitcoin discreet log contract (DLC) protocol specifications as an open source Typescript SDK. Dockerized all microservices and setup production kubernetes cluster. Architected a data lake using AWS S3 and Athena for historical backtesting of bitcoin trading strategies. Built a mobile app using react native and typescript.",
     },
     {
-      company: "MNPC Solutions Pty",
-      href: "https://www.mnpcsolutions.co.za/",
+      company: "Shopify",
       badges: [],
-      location: "Pretoria",
-      title: "Intern Developer",
-      logoUrl: "/n.png",
-      start: "March 2020 ",
-      end: "November 2020",
+      href: "https://shopify.com",
+      location: "Remote",
+      title: "Software Engineer",
+      logoUrl: "/shopify.svg",
+      start: "January 2021",
+      end: "April 2021",
       description:
-        "Learned and implemented new technologies including JavaScript, jQuery, C#, and MySQL. Built and integrated web tools into websites and monitored performance metrics. Troubleshot bugs and implemented fixes to improve usability. Simplified client onboarding by developing a record-keeping system for new signups and visitors.",
+        "Implemented a custom Kubernetes controller in Go to automate the deployment of MySQL and ProxySQL custom resources in order to enable 2,000+ internal developers to instantly deploy their app databases to production. Wrote several scripts in Go to automate MySQL database failovers while maintaining master-slave replication topologies and keeping Zookeeper nodes consistent with changes.",
+    },
+    {
+      company: "Nvidia",
+      href: "https://nvidia.com/",
+      badges: [],
+      location: "Santa Clara, CA",
+      title: "Software Engineer",
+      logoUrl: "/nvidia.png",
+      start: "January 2020",
+      end: "April 2020",
+      description:
+        "Architected and wrote the entire MVP of the GeForce Now Cloud Gaming internal admin and A/B testing dashboard using React, Redux, TypeScript, and Python.",
+    },
+    {
+      company: "Splunk",
+      href: "https://splunk.com",
+      badges: [],
+      location: "San Jose, CA",
+      title: "Software Engineer",
+      logoUrl: "/splunk.svg",
+      start: "January 2019",
+      end: "April 2019",
+      description:
+        "Co-developed a prototype iOS app with another intern in Swift for the new Splunk Phantom security orchestration product (later publicly demoed and launched at .conf annual conference in Las Vegas). Implemented a realtime service for the iOS app in Django (Python) and C++; serialized data using protobufs transmitted over gRPC resulting in an approximate 500% increase in data throughput.",
+    },
+    {
+      company: "Lime",
+      href: "https://li.me/",
+      badges: [],
+      location: "San Francisco, CA",
+      title: "Software Engineer",
+      logoUrl: "/lime.svg",
+      start: "January 2018",
+      end: "April 2018",
+      description:
+        "Proposed and implemented an internal ruby API for sending/receiving commands to scooters over LTE networks. Developed a fully automated bike firmware update system to handle asynchronous firmware updates of over 100,000+ scooters worldwide, and provide progress reports in real-time using React, Ruby on Rails, PostgreSQL and AWS EC2 saving hundreds of developer hours.",
+    },
+    {
+      company: "Mitre Media",
+      href: "https://mitremedia.com/",
+      badges: [],
+      location: "Toronto, ON",
+      title: "Software Engineer",
+      logoUrl: "/mitremedia.png",
+      start: "May 2017",
+      end: "August 2017",
+      description:
+        "Designed and implemented a robust password encryption and browser cookie storage system in Ruby on Rails. Leveraged the Yahoo finance API to develop the dividend.com equity screener",
     },
   ],
   education: [
     {
-      school: "CTU Training Solutions – Pretoria",
-      href: "https://www.ctutraining.ac.za/",
-      degree: "Web Development 2 | IT Systems Development (MictSeta)",
-      logoUrl: "/ctu.jpg",
-      start: "2018",
-      end: "2020",
+      school: "Buildspace",
+      href: "https://buildspace.so",
+      degree: "s3, s4, sf1, s5",
+      logoUrl: "/buildspace.jpg",
+      start: "2023",
+      end: "2024",
     },
     {
-      school: "Hoërskool Silverton",
-      href: "https://www.silvies.co.za/",
-      degree: "Highest Qualification Obtained: Matric (Grade 12)",
-      logoUrl: "/ss.png",
-      start: "2013",
-      end: "2017",
+      school: "University of Waterloo",
+      href: "https://uwaterloo.ca",
+      degree: "Bachelor's Degree of Computer Science (BCS)",
+      logoUrl: "/waterloo.png",
+      start: "2016",
+      end: "2021",
     },
-    
-    
+    {
+      school: "Wilfrid Laurier University",
+      href: "https://wlu.ca",
+      degree: "Bachelor's Degree of Business Administration (BBA)",
+      logoUrl: "/laurier.png",
+      start: "2016",
+      end: "2021",
+    },
+    {
+      school: "International Baccalaureate",
+      href: "https://ibo.org",
+      degree: "IB Diploma",
+      logoUrl: "/ib.png",
+      start: "2012",
+      end: "2016",
+    },
   ],
   projects: [
     {
