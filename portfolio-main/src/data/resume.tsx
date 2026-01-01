@@ -2,24 +2,28 @@ import { Icons } from "@/components/icons";
 import { HomeIcon, NotebookIcon } from "lucide-react";
 
 export const DATA = {
-  name: "Milano Moses",
-  initials: "MM",
-  url: "https://https://milanomoses.co.za/",
-  location: "Pretoria, GP",
-  locationLink: "https://www.google.com/maps/place/pretoria",
+  name: "Dillion Verma",
+  initials: "DV",
+  url: "https://dillion.io",
+  location: "San Francisco, CA",
+  locationLink: "https://www.google.com/maps/place/sanfrancisco",
   description:
-    "Front-end developer turned Full-Stack. I love building meaningful things and helping visionaries. Not a lot of personality, but working on it. ",
+    "Software Engineer turned Entrepreneur. I love building things and helping people. Very active on Twitter.",
   summary:
-    "At the beginning of 2020, I graduated from CTU Training Solutions Pretoria and went fulltime into becoming a web developer. In the past, [I pursued a qualification as a systems developer](/#education), [interned at promient tech company](https://www.youtube.com/watch?v=d-LJ2e5qKdE), and [built over 30 websites up to date](/#devlife). I also had the pleasure of being a part of the first ever in-person cohort of buildspace called [buildspace sf1](https://buildspace.so/sf1).",
+    "At the end of 2022, I quit my job as a software engineer to go fulltime into building and scaling my own SaaS businesses. In the past, [I pursued a double degree in computer science and business](/#education), [interned at big tech companies in Silicon Valley](https://www.youtube.com/watch?v=d-LJ2e5qKdE), and [competed in over 21 hackathons for fun](/#hackathons). I also had the pleasure of being a part of the first ever in-person cohort of buildspace called [buildspace sf1](https://buildspace.so/sf1).",
   avatarUrl: "/me.png",
   skills: [
     "React",
     "Next.js",
     "Typescript",
     "Node.js",
+    "Python",
+    "Go",
+    "Postgres",
+    "Docker",
+    "Kubernetes",
     "Java",
-     "Php",
-    "C#",
+    "C++",
   ],
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
